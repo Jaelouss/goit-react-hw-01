@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.friend__list {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 50px;
+}
+.friend__item {
+  padding: 25px;
+  border: 2px solid #000000;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.friend__name {
+  font-weight: 600;
+}
+.friend__status_online {
+  color: green;
+}
+.friend__status_offline {
+  color: red;
+}
