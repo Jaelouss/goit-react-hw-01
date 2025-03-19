@@ -1,6 +1,6 @@
 import './App.css';
 import Profile from './Profile/Profile';
-import FriendListItem from './FriendListItem/FriendListItem';
+import FriendListItem from './FriendList/FriendListItem';
 import TransactionHistory from './TransactionHistory/TransactionHistory';
 import userData from '../userData.json';
 import friends from '../friends.json';
